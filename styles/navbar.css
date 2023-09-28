@@ -32,3 +32,29 @@ body{
     position: absolute;
     right: 450px;
 }
+.start-page{
+    width: 1920px;
+    height: 713px;
+    position: relative;
+    background-image: linear-gradient(331deg, rgb(104, 176, 77) 22.345%, rgb(96, 164, 176) 51.004%, rgb(96, 164, 176) 76.8677%);
+}
+
+.start-page-text{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    font-size: 90px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 600;
+    color: #1b1b1e;
+    width: 900px;
+
+}
+.blue{
+    color: #002950
+}
+.vibebyte-media{
+    background-color: #002950;
+    color: #ADEFD1;
+    padding: 0;
+}
