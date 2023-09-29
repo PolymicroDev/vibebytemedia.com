@@ -11,3 +11,11 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+}

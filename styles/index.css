@@ -1,8 +1,19 @@
 .start-page{
     height: auto;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 100px 500px;
     background-image: linear-gradient(331deg, rgb(104, 176, 77) 22.345%, rgb(96, 164, 176) 51.004%, rgb(96, 164, 176) 76.8677%);
+}
+.section{
+    height: auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 500px;
 }
 
 .start-page-text{
@@ -20,7 +31,7 @@
     background-color: #002950;
     color: #ADEFD1;
     display: inline-block;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .start-page-details{
@@ -29,5 +40,49 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     letter-spacing: 5px;
-    margin-left: 150px;
+    margin-bottom: 80px;
+    text-align: center;
 }
+
+.our-services-text{
+    font-size: 80px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 600;
+    color: #ADEFD1;
+}
+
+.our-services{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 100px 500px;
+    background-color: #002950;
+}
+
+.services{
+    color: #ADEFD1;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 42px;
+    font-weight: 200;
+    display: grid;
+    padding-top: 70px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+
+}
+.service{
+    position: relative;
+}
+
+.green-square{
+    position: absolute;
+    left: -10px;
+    top: -15px;
+    width: 50px;
+    height: 10px;
+    background-color: #ADEFD1;
+}
+

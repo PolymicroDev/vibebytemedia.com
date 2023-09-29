@@ -1,11 +1,9 @@
 .nav-bar{
-    width: 1920x;
-    height: 99px;
     background-color: #002950;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 400px;
+    padding: 13px 400px;
     
 }
 body{

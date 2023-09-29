@@ -18,22 +18,37 @@
 <body>
     <div class="nav-bar">
         <div class="logo-container">
-            <a href=""><img class="logo" src="header-logo-3.png" alt=""></a>
+            <a href=""><img class="logo" src="navbar-logo.png" alt=""></a>
         </div>
         
         
         <div class="buttons">
             <button class="section-button">ABOUT US</button>
-            <button class="section-button">SERVICES</button>
+            <button class="section-button" onclick="scrollToSection('services')">SERVICES</button>
             <button class="section-button">TEAM</button>
             <button class="section-button">CONTACT</button>
         </div>
     </div>
     <div class="start-page">
-        <div class="start-page-text hidden">
+        <div class="start-page-text">
             <span class="blue">Empowering</span> Your Online Presence With
             <div class="vibebyte-media">VibeByte Media</div>
-            <div class="start-page-details hidden">WEBSITE DESIGN & DEVELOPMENT</div>
+            <div class="start-page-details">WEBSITE DESIGN & DEVELOPMENT</div>
+        </div>
+    </div>
+    <div id="services" class="our-services">
+        <div class="our-services-text">
+            OUR SERVICES
+        </div>
+        <div class="services">
+            <div class="service">
+                WEB DESIGN
+            <div class="green-square"></div>
+            </div>
+            <div class="service">
+                WEB DEVELOPMENT
+            <div class="green-square"></div>  
+            </div>
         </div>
     </div>
 </body>
