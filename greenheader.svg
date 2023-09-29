@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 113 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-93.6456,-9.6808)">
+        <g transform="matrix(0.378849,-0.000322703,0.000464075,0.657998,47.0411,-295.302)">
+            <path d="M158.546,514.517L200.198,514.517C207.864,514.517 206.147,496.96 213.813,496.96C221.478,496.96 222.518,524.787 230.183,524.787C237.849,524.787 246.835,465.394 254.5,465.394C262.165,465.394 266.048,540.616 273.714,540.616C281.379,540.616 286.065,483.759 293.731,483.759C301.396,483.759 304.104,528.762 311.77,528.762C319.435,528.762 319.278,502.923 326.943,502.923C334.608,502.923 329.686,515.843 337.351,515.843C345.016,515.843 361.374,515.853 369.039,515.853" style="fill:none;stroke:rgb(173,239,209);stroke-width:4.33px;"/>
+        </g>
+        <g transform="matrix(1.32157,0,0,1.32157,-197.492,-74.6961)">
+            <text x="219.876px" y="121.583px" style="font-family:'Quicksand-Regular', 'Quicksand';font-size:12px;fill:rgb(173,239,209);">VibeByte Media</text>
+        </g>
+    </g>
+</svg>
