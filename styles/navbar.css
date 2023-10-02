@@ -21,9 +21,24 @@ body{
     border: none;
     color: #ADEFD1;
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     transition: color 0.15s;
+}
+
+.section-button::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ADEFD1;
+    display: block;
+    margin: auto;
+    transition: 0.30s;
+}
+
+.section-button:hover::after{
+    width: 100%;
+
 }
 .section-button:hover{
     color: white;

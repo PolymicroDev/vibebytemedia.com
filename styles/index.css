@@ -31,7 +31,6 @@
     background-color: #002950;
     color: #ADEFD1;
     display: inline-block;
-    margin-bottom: 120px;
 }
 
 .start-page-details{
@@ -40,8 +39,8 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     letter-spacing: 5px;
-    margin-bottom: 80px;
     text-align: center;
+    padding: 132px;
 }
 
 .our-services-text{
