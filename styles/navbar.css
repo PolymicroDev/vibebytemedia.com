@@ -1,11 +1,16 @@
-.nav-bar{
+.nav-bar-container{
     background-color: #002950;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 13px 400px;
+    justify-content: center;
+    padding: 13px 0px;
     
     
+}
+.nav-bar{
+    display: flex;
+    gap: 650px;
+
 }
 body{
     margin: 0;
