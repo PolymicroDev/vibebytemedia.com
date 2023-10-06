@@ -17,3 +17,18 @@
     transform: translateX(0);
 }
 
+.icon-div:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.icon-div:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.icon-div:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.icon-div:nth-child(5){
+    transition-delay: 800ms;
+}

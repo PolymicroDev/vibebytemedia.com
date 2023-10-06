@@ -1,10 +1,13 @@
+body{
+    font-family: 'Quicksand',sans-serif;
+}
 .start-page{
     height: auto;
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 500px;
+    padding: 80px 500px;
     background-image: linear-gradient(331deg, rgb(104, 176, 77) 22.345%, rgb(96, 164, 176) 51.004%, rgb(96, 164, 176) 76.8677%);
 }
 .section{
@@ -18,7 +21,6 @@
 
 .start-page-text{
     font-size: 90px;
-    font-family: 'Quicksand',sans-serif;
     font-weight: 600;
     color: #1b1b1e;
     width: 900px;
@@ -40,12 +42,11 @@
     font-weight: 700;
     letter-spacing: 5px;
     text-align: center;
-    padding: 132px;
+    padding: 120px;
 }
 
 .our-services-text{
     font-size: 80px;
-    font-family: 'Quicksand',sans-serif;
     font-weight: 600;
     color: #ADEFD1;
 }
@@ -55,14 +56,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     padding: 100px 500px;
     background-color: #002950;
 }
 
 .services{
     color: #ADEFD1;
-    font-family: 'Quicksand',sans-serif;
     font-size: 42px;
     font-weight: 200;
     display: grid;
@@ -83,5 +83,48 @@
     width: 50px;
     height: 10px;
     background-color: #ADEFD1;
+}
+
+.contacts{
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 170px 0px;
+    background-image: radial-gradient(circle at 68.33333333333333% 78.33333333333333%, #002E5D 0%, 17.5%, rgba(0,46,93,0) 35%), radial-gradient(circle at 46.66784922281901% 48.28361511230469%, #002E5D 0%, 17.5%, rgba(0,46,93,0) 35%), radial-gradient(circle at 100% 60.40482838948568%, #68B04D 0%, 17.5%, rgba(104,176,77,0) 35%), radial-gradient(circle at 37.203776041666664% 11.217447916666666%, #1B1B1E 0%, 17.5%, rgba(27,27,30,0) 35%), radial-gradient(circle at 86.66666666666667% 18.333333333333332%, #1B1B1E 0%, 20%, rgba(27,27,30,0) 40%), radial-gradient(circle at 20.910274187723797% 86.1624018351237%, rgba(0,46,93,0.99) 0%, 25%, rgba(0,46,93,0) 50%), radial-gradient(circle at 11.440577507019043% 17.223010063171387%, #1B1B1E 0%, 42%, rgba(27,27,30,0) 70%), radial-gradient(circle at 63.71330261230469% 8.88967752456665%, #1B1B1E 0%, 42%, rgba(27,27,30,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #FFFFFF 0%, 100%, rgba(255,255,255,0) 100%);
+}
+
+.icons{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.icon-div{
+    width: 100px;
+    height: 100px;
+}
+.icons img{
+    width: 94px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.15s width;
+}
+
+.icons img:hover{
+    width: 100px;
+}
+
+.footer{
+    background-color: #002950;
+    color: white;
+    padding-left: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
