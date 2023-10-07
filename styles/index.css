@@ -41,15 +41,19 @@ body{
     font-size: 80px;
     font-weight: 600;
     color: #ADEFD1;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .our-services{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 100px 0px;
     background-color: #002950;
+    padding-bottom: 40px;
+   
 }
 
 .services{  
@@ -57,19 +61,24 @@ body{
     font-size: 42px;
     font-weight: 200;
     display: grid;
-    padding-top: 70px;
-    column-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    column-gap: 200px;
+    grid-template-columns: 500px 500px;
     text-align: center;
     
-    
-    
-
 }
 .service{
     position: relative;
-    border-bottom: #ADEFD1;
-    border-width: 3px;
+}
+.service-label{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.service img{
+    width: 200px;
 }
 
 .green-square{
@@ -124,6 +133,8 @@ body{
     padding-bottom: 40px;
 }
 
+
+
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
     .nav-bar {
@@ -135,7 +146,7 @@ body{
     }
 
     .section-button {
-        font-size: 16px; /* Decrease button font size for smaller screens */
+        font-size: 14px; /* Decrease button font size for smaller screens */
     }
 
     .start-page-text {
@@ -155,19 +166,21 @@ body{
     }
 
     .our-services-text {
-        font-size: 60px; /* Decrease font size for our services text */
+        font-size: 50px; /* Decrease font size for our services text */
     }
 
     .services {
-        font-size: 24px; /* Decrease font size for services on smaller screens */
+        font-size: 30px; /* Decrease font size for services on smaller screens */
         padding-top: 20px; /* Decrease padding on smaller screens */
         column-gap: 10px; /* Reduce the gap between service items */
-        grid-template-columns: 1fr; /* Display services in a single column */
+        grid-template-columns: 1fr;
+        row-gap: 70px; /* Display services in a single column */
     }
 
     .contacts {
-        font-size: 60px; /* Decrease font size for contact us section */
+        font-size: 50px; /* Decrease font size for contact us section */
         padding: 120px 0; /* Decrease padding on smaller screens */
+        text-align: center;
     }
 
     .icons {
@@ -180,7 +193,7 @@ body{
     }
 
     .icons img {
-        width: 44px; /* Decrease icon size on smaller screens */
+        width: 60px; /* Decrease icon size on smaller screens */
     }
 
     .footer {
