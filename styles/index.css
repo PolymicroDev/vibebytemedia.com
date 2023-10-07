@@ -2,22 +2,14 @@ body{
     font-family: 'Quicksand',sans-serif;
 }
 .start-page{
-    height: auto;
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 500px;
+    padding: 80px 0px;
     background-image: linear-gradient(331deg, rgb(104, 176, 77) 22.345%, rgb(96, 164, 176) 51.004%, rgb(96, 164, 176) 76.8677%);
 }
-.section{
-    height: auto;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 500px;
-}
+
 
 .start-page-text{
     font-size: 90px;
@@ -52,16 +44,15 @@ body{
 }
 
 .our-services{
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 100px 500px;
+    padding: 100px 0px;
     background-color: #002950;
 }
 
-.services{
+.services{  
     color: #ADEFD1;
     font-size: 42px;
     font-weight: 200;
@@ -70,6 +61,8 @@ body{
     column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     text-align: left;
+    padding-left: 400px;
+    
 
 }
 .service{
@@ -78,9 +71,9 @@ body{
 
 .green-square{
     position: absolute;
-    left: -10px;
-    top: -15px;
-    width: 50px;
+    top: -10px;
+    left: 0;
+    width: 40px;
     height: 10px;
     background-color: #ADEFD1;
 }
