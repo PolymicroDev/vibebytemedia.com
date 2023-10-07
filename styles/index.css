@@ -60,19 +60,22 @@ body{
     padding-top: 70px;
     column-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    text-align: left;
-    padding-left: 400px;
+    text-align: center;
+    
+    
     
 
 }
 .service{
     position: relative;
+    border-bottom: #ADEFD1;
+    border-width: 3px;
 }
 
 .green-square{
     position: absolute;
     top: -10px;
-    left: 0;
+    left: 450px;
     width: 40px;
     height: 10px;
     background-color: #ADEFD1;
@@ -119,5 +122,71 @@ body{
     padding-left: 400px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .nav-bar {
+        gap: 20px; /* Reduce the gap between buttons on smaller screens */
+    }
+
+    .logo {
+        width: 80px; /* Adjust the logo size for smaller screens */
+    }
+
+    .section-button {
+        font-size: 16px; /* Decrease button font size for smaller screens */
+    }
+
+    .start-page-text {
+        font-size: 60px; /* Decrease font size for the start page text */
+        width: 100%; /* Make the text span the full width on smaller screens */
+        padding: 20px; /* Decrease padding on smaller screens */
+    }
+
+    .vibebyte-media {
+        font-size: 60px; /* Decrease font size for VibeByte Media */
+        padding: 10px; /* Decrease padding on smaller screens */
+    }
+
+    .start-page-details {
+        font-size: 14px; /* Decrease font size for start page details */
+        padding: 50px; /* Decrease padding on smaller screens */
+    }
+
+    .our-services-text {
+        font-size: 60px; /* Decrease font size for our services text */
+    }
+
+    .services {
+        font-size: 24px; /* Decrease font size for services on smaller screens */
+        padding-top: 20px; /* Decrease padding on smaller screens */
+        column-gap: 10px; /* Reduce the gap between service items */
+        grid-template-columns: 1fr; /* Display services in a single column */
+    }
+
+    .contacts {
+        font-size: 60px; /* Decrease font size for contact us section */
+        padding: 120px 0; /* Decrease padding on smaller screens */
+    }
+
+    .icons {
+        padding-top: 20px; /* Decrease padding on smaller screens */
+    }
+
+    .icon-div {
+        width: 60px; /* Decrease icon div width on smaller screens */
+        height: 60px; /* Decrease icon div height on smaller screens */
+    }
+
+    .icons img {
+        width: 44px; /* Decrease icon size on smaller screens */
+    }
+
+    .footer {
+        padding-left: 20px; /* Decrease left padding on smaller screens */
+        padding-top: 20px; /* Decrease top padding on smaller screens */
+        padding-bottom: 20px; /* Decrease bottom padding on smaller screens */
+    }
 }
 
