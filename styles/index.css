@@ -138,15 +138,18 @@ body{
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
     .nav-bar {
-        gap: 20px; /* Reduce the gap between buttons on smaller screens */
+        gap: 20px;
+         /* Reduce the gap between buttons on smaller screens */
     }
 
     .logo {
         width: 80px; /* Adjust the logo size for smaller screens */
     }
+    .buttons{
+    }
 
     .section-button {
-        font-size: 14px; /* Decrease button font size for smaller screens */
+        font-size: 12px; /* Decrease button font size for smaller screens */
     }
 
     .start-page-text {
