@@ -32,3 +32,15 @@
 .icon-div:nth-child(5){
     transition-delay: 800ms;
 }
+
+.service:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.service:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.service:nth-child(4){
+    transition-delay: 600ms;
+}

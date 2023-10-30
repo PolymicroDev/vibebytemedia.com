@@ -14,8 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="">
-    <script defer src="app.js"></script>
+    <script defer src="/app.js"></script>
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+
 </head>
 <body>
     <div class="nav-bar-container">
@@ -23,34 +25,50 @@
             <div class="logo-container">
                 <a href=""><img class="logo" src="websitelogo2.png" alt=""></a>
             </div>
-            
-            
-            <div class="buttons">
-                <button class="section-button" onclick="">ABOUT US</button>
-                <button class="section-button" onclick="scrollToSection('services')">SERVICES</button>
-                <button class="section-button" onclick="scrollToSection('contact-us')">CONTACT US</button>
-            </div>
+
         </div>
     </div>
     <div class="start-page">
         <div class="start-page-text hidden">
-            <span class="blue">Empowering</span> Your Online Presence With
-            <div class="vibebyte-media">VibeByte Media</div>
-            <div class="start-page-details">WEBSITE DESIGN & DEVELOPMENT</div>
+            We generate <span class="blue">Quote-Ready</span> Home Improvement Leads for You
+            <div class="start-page-details">No heavy lifting required!</div>
+            <button onclick="scrollToSection('calendly')" class="get-leads-button">Get More Leads!</button>
         </div>
     </div>
     <div id="services" class="our-services">
         <div class="our-services-text hidden">
-            OUR SERVICES
+            OUR PROCESS
         </div>
-        <div class="services hidden">  
-            <div class="service">
-                <p class="service-label">WEB DESIGN</p>
-                <img src="webdesign.png" alt="">
+        <div class="services">  
+            <div class="hidden service">
+                <div class="order">1</div>
+                <div class="service-label">Gather Content</div>
+                
+                <div class="step">
+                    In the initial step, we collect visuals
+                    that highlight your craftsmanship.
+                    These form the foundation of our strategy,
+                    serving to attract a greater number of potential clients to your business.
+                </div>
             </div>
-            <div class="service">
-                <p class="service-label">WEB DEVELOPMENT</p>
-                <img src="webdev.png" alt="">
+            <div class="hidden service">
+                <div class="order">2</div>
+                <div class="service-label">Launch Ads</div>
+                
+                <div class="step">
+                    Next, we launch ads based on the content we've collected.
+                    These ads are strategically 
+                    designed and placed on popular social media platforms to capture clients attention.
+                </div>
+            </div>
+            <div class="hidden service">
+                <div class="order">3</div>
+                <div class="service-label">Generate Leads</div>
+            
+                <div class="step">
+                    Finally, we collect information from individuals who are genuinely interested
+                     in your services. Prioritising quote-ready leads and eliminating tire kickers.
+                </div>
             </div>
         </div>
 
@@ -64,19 +82,19 @@
                 <a target=”_blank” href="https://www.instagram.com/vibebytemedia/"><img class="icon" src="icons/instagram-icon.png" alt=""></a>
             </div>
             <div class="hidden icon-div">
-                <a target=”_blank” href="https://www.facebook.com/profile.php?id=61551863517161"><img class="icon" src="icons/facebook-icon.png" alt=""></a>
+                <a target=”_blank” href="https://www.facebook.com/profile.php?id=61553061233966"><img class="icon" src="icons/facebook-icon.png" alt=""></a>
             </div>
             <div class="hidden icon-div">
-                <a target=”_blank” href="https://www.linkedin.com/in/vibebytemedia/"><img class="icon" src="icons/linkedin-icon.png" alt=""></a>
+                <a target=”_blank” href="https://www.linkedin.com/company/vibebytemedia/about/"><img class="icon" src="icons/linkedin-icon.png" alt=""></a>
             </div>
             
         </div>
     </div>
-    <div class="calendly-inline-widget" data-url="https://calendly.com/vibebytemedia" style="min-width:320px;height:700px; background-color: #002950">
-    </div>
+    <div id="calendly" class="calendly-inline-widget" data-url="https://calendly.com/vibebytemedia/schedule" style="min-width:320px;height:700px;background-color: #002E5D;"></div>
 
     <div class="footer">
         © 2023 VibeByte Media. All rights reserved.
     </div>
+    
 </body>
 </html>
