@@ -194,10 +194,10 @@ body{
     }
 
     .start-page-text {
-        font-size: 60px; /* Decrease font size for the start page text */
+        font-size: 40px; /* Decrease font size for the start page text */
         width: 100%; /* Make the text span the full width on smaller screens */
-        padding: 20px; /* Decrease padding on smaller screens */
-        line-height: 100px;
+        padding: 0px; /* Decrease padding on smaller screens */
+        line-height: 65px;
     }
 
     .vibebyte-media {
