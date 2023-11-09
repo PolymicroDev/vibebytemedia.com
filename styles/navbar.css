@@ -1,11 +1,10 @@
 .nav-bar-container{
-    background-color: #002950;
+    background-color: #002E5D;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 0px;
-    
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .nav-bar{
     display: flex;
